@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo footer Should check snapshot test with 0 tasks 1`] = `
+<div
+  className="todo-footer"
+>
+  <p
+    data-testid="para"
+  >
+    0
+     
+    tasks
+     left
+  </p>
+  <a
+    href="/followers"
+    onClick={[Function]}
+  >
+    Followers
+  </a>
+</div>
+`;
+
+exports[`Todo footer Should check snapshot test with 4 tasks 1`] = `
+<div
+  className="todo-footer"
+>
+  <p
+    data-testid="para"
+  >
+    4
+     
+    tasks
+     left
+  </p>
+  <a
+    href="/followers"
+    onClick={[Function]}
+  >
+    Followers
+  </a>
+</div>
+`;
